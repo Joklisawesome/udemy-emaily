@@ -9,7 +9,7 @@ const app = express();
 
 // route handler
 app.get("/", (req, res) => {
-  res.send({ hi: "there" });
+  res.send({ hi: "heroku rules" });
 });
 
 // Heroku tells us which port to use, so we make this dynamic
